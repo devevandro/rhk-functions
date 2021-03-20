@@ -1,0 +1,21 @@
+{
+  "name": "rhk-utils",
+  "version": "1.0.0",
+  "description": "A commons functions to format every type",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devevandro/rhk-utils.git"
+  },
+  "keywords": [],
+  "author": "dev.evandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devevandro/rhk-utils/issues"
+  },
+  "homepage": "https://github.com/devevandro/rhk-utils#readme",
+  "dependencies": {}
+}
