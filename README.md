@@ -29,6 +29,7 @@ npm install rhk-utils
 ```js
 //ES5
 const utils {
+    size,
     formatRg,
     formatCpf,
     formatCnpj,
@@ -51,6 +52,7 @@ console.log(cpf);
 
 //ES6
 import {
+    size,
     formatRg,
     formatCpf,
     formatCnpj,

@@ -3,6 +3,12 @@ function onlyNumbers(value) {
     return value = String(value).replace(/\D/g, "");
 }
 
+function size(value) {
+    value = onlyNumbers(value);
+
+    return value.length();
+}
+
 function formatZipcode(value) {
     value = onlyNumbers(value);
 
@@ -242,5 +248,6 @@ module.exports = {
     checkCpf,
     checkCnpj,
     checkEmail,
-    checkPassword
+    checkPassword,
+    size
 };
